@@ -3,10 +3,12 @@
 サーバー参加時にスポーンする場所を設定する
 
 ## Command
+``` mclang
+#サーバー入室時のスポーン地点を設定
+/login-loc set
+#サーバー入室時のスポーン地点を確認
+/login-loc get
 ```
-/setLoginLoc
-```
- で座標を設定
 
 ## Gradle Task
 
