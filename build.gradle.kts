@@ -39,6 +39,7 @@ tasks.withType<ShadowJar> {
 configure<BukkitPluginDescription> {
     name = project.name
     version = project.version.toString()
-    main = "sample.Main" // TODO JavaPlugin を継承したクラスとパッケージを入力する
-    apiVersion = "1.16"
+    main = "com.github.frango28.mcplugin.loginloc.Main"
+    author="Frango28"
+    website="https://github.com/Frango28/LoginLoc"
 }
